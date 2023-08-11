@@ -12,8 +12,8 @@
 #  Put your student number here as an integer and your name as a
 #  character string:
 #
-student_number = None
-student_name   = None
+student_number = 1234535
+student_name   = "None"
 #
 #  NB: All files submitted for this assessable task will be subjected
 #  to automated plagiarism analysis using a tool such as the Measure
@@ -125,8 +125,17 @@ else:
 # In Task 1B ensure that your code does NOT call functions data_set
 # or raw_data because they're already called by the main program
 # below.
+
+def circle(x,y):
+    print(f"draw the circle {x} {y}")
+
+def donkey(x, y):
+    circle(x - 10, y + 32)
+    circle(x - 44, y + 23)
+
 def visualise_data(rename_me_in_task_1b):
-    pass # <--- Replace this statement with your solution
+    
+    donkey(99, 55)
 
 #
 #--------------------------------------------------------------------#
@@ -146,7 +155,7 @@ def visualise_data(rename_me_in_task_1b):
 # ***** You can add arguments to this function call to modify
 # ***** features of the drawing canvas such as the background
 # ***** and line colours, etc
-create_drawing_canvas()
+create_drawing_canvas(write_instructions=False)
 
 # Create the data set and pass it to the student's function
 #
