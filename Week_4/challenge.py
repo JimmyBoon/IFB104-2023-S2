@@ -4,6 +4,11 @@
 # put an "X" in the next available spot.
 # Otherwise, it is the o players go.
 # put an "O" in the next available spot.
+#
+# Should print like this when done:
+# ['X', 'O', 'X']
+# ['O', 'X', 'O']
+# ['X', 'O', 'X']
 # 
 # Use, loops, if/else, functions and modules.
 
