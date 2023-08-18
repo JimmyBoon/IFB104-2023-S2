@@ -15,7 +15,7 @@ while "-" in current_board[0] or "-" in current_board[1] or "-" in current_board
                     current_board[row][col] = "X"
                     print_board(current_board)
                     x_turn = False
-                    play_counter += 1
+                    continue
 
 
 
@@ -31,9 +31,7 @@ while "-" in current_board[0] or "-" in current_board[1] or "-" in current_board
         fillBoard(int(row) - 1, int(col) - 1, x_turn)
         x_turn = True
 
-        play_counter += 1
-
-    
+        continue
 
 
 
