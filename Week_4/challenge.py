@@ -10,7 +10,7 @@
 # ['O', 'X', 'O']
 # ['X', 'O', 'X']
 # 
-# Use, loops, if/else, functions and modules.
+# Use: loops, if/else, functions and modules.
 
 current_board = [["-","-","-"],["-","-","-"],["-","-","-"]]
 
