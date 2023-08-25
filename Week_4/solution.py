@@ -26,7 +26,10 @@ def auto_play(x_turn = True):
             fillBoard(row, col, x_turn)
             x_turn = not x_turn
 
+
+
 def take_input(row_or_col):
+
 
     correct = False
 
