@@ -51,7 +51,11 @@ WORD2 or WORD3 for a long time afterwards!
 # 5. An animal you'd find in a pet shop other than a cat
 # 6. An item of female clothing
 #
-pass
+start = the_story.find("WORD1")
+print(the_story[start:start+5])
+
+the_new_story = the_story.replace("WORD1", "Arm")
+print(the_new_story)
 
 # Replace the "blank" placeholders in the story
 pass
