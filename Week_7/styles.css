@@ -1,0 +1,30 @@
+div{
+    background-color: #FFF7D7;
+    border-style: solid;
+    border-color: #A96B3C;
+
+    color: #964828;
+
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+
+    padding: 20px;
+    
+}
+
+.Title{
+    text-align: center;
+}
+
+#SubHeading{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+#Song{
+    text-align: center;
+}

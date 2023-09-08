@@ -126,7 +126,8 @@ else:
 # or raw_data because they're already called by the main program
 # below.
 def visualise_data(data_set):
-    
+    print("This is my data set:")
+
     for one, two, three in data_set:
         print(f"This is the data one: {one}, two: {two}, three: {three}")
     
